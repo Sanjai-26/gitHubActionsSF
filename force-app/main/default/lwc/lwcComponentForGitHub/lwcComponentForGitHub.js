@@ -1,8 +1,8 @@
 import { LightningElement, track } from 'lwc';
 
 export default class LwcComponentForGitHub extends LightningElement {
-    @track selectedItem = 'reports_recent';
-    @track currentContent = 'reports_recent';
+    @track selectedItem = 'reports_recent1';
+    @track currentContent = 'reports_recent1';
     @track updatedCount = 12;
 
     handleSelect(event) {
